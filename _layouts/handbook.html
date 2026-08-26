@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <link rel="stylesheet"
+        href="{{ '/assets/css/handbook.css' | relative_url }}">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <p class="department">California State University, East Bay</p>
+    <p class="site-title">Department of Social Work</p>
+  </div>
+</header>
+
+<div class="page-wrapper">
+
+  <nav class="sidebar" aria-label="Handbook navigation">
+    <h2>MSW Handbook</h2>
+
+    <ul>
+      <li><a href="#welcome">Welcome</a></li>
+      <li><a href="#msw-program-overview">Program Overview</a></li>
+      <li><a href="#academic-policies">Academic Policies</a></li>
+      <li><a href="#practicum-education">Practicum Education</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content" class="handbook-content">
+    <h1>{{ page.title }}</h1>
+
+    {{ content }}
+  </main>
+
+</div>
+
+</body>
+</html>
