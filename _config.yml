@@ -1,0 +1,8 @@
+title: MSW Student Handbook & Practicum Manual
+description: California State University, East Bay Department of Social Work
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  auto_ids: true
