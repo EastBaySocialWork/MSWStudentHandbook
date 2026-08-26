@@ -1,3 +1,8 @@
+---
+layout: handbook
+title: Fall 2025 MSW Student Handbook & Practicum Manual
+---
+
 ![][image1]
 
 **CSUEB MSW Student Handbook & Practicum Manual** 
